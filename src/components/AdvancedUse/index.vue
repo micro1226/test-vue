@@ -38,6 +38,9 @@
     <!-- <div v-for="(val, key) in testData" :key="key">
       <component :is="val.type" />
     </div> -->
+
+    <!-- keep-alive -->
+    <!-- <KeepAlive /> -->
   </div>
 </template>
 
@@ -47,9 +50,11 @@
 // import SlotDemo from './SlotDemo'
 // import ScopedSlotDemo from './ScopedSlotDemo'
 // import NamedSlot from './NamedSlot'
+// import KeepAlive from './KeepAlive'
 
 export default {
   components: {
+    //   KeepAlive
     // NamedSlot
     // ScopedSlotDemo
     // SlotDemo
