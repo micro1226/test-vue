@@ -1,21 +1,35 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+<!-- <Todo v-if="hideTodo"/> -->
+<!-- <button @click="clickHide">hide</button> -->
 
-    <div>------</div>
-    <!-- <HelloWorld msg="second"/> -->
+<AdvancedUse />
 
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import Todo from './components/Todo.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import AdvancedUse from './components/AdvancedUse/index'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Todo,
+    // HelloWorld,
+    AdvancedUse
+  },
+  data() {
+    return {
+      hideTodo: false
+    }
+  },
+  methods: {
+    clickHide() {
+      this.hideTodo = !this.hideTodo
+    }
   }
 }
 </script>
