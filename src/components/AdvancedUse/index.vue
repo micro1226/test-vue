@@ -16,7 +16,10 @@ export default {
     },
     data() {
         return {
-            name: 'mary'
+            name: 'mary',
+            person: {
+                name: 'mary'
+            }
         }
     }
 }
