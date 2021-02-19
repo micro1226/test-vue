@@ -41,6 +41,9 @@
 
     <!-- keep-alive -->
     <!-- <KeepAlive /> -->
+
+    <!-- Mixin  -->
+    <!-- <MixinDemo /> -->
   </div>
 </template>
 
@@ -51,9 +54,11 @@
 // import ScopedSlotDemo from './ScopedSlotDemo'
 // import NamedSlot from './NamedSlot'
 // import KeepAlive from './KeepAlive'
+// import MixinDemo from './MixinDemo'
 
 export default {
   components: {
+    //   MixinDemo
     //   KeepAlive
     // NamedSlot
     // ScopedSlotDemo
